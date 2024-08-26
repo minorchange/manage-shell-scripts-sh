@@ -1,0 +1,1 @@
+./manage.sh ./example-script.sh
