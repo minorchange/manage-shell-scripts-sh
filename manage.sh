@@ -106,5 +106,5 @@ if [ $EXIT_STATUS -eq 0 ]; then
 else
     STATUS="❌ Script '$SCRIPT_NAME' failed."
     send_telegram_message "$STATUS; Started at: $START_TIME; Ended at: $END_TIME"
-    send_telegram_message "🛑 Error Details:\n$OUTPUT"
+    # send_telegram_message "🛑 Error Details:\n$OUTPUT"
 fi
